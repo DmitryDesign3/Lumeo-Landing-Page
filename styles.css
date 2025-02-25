@@ -361,7 +361,7 @@ main {
     padding: 80px 0;
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto; /* Центрирование контейнера */
+    margin: 0 auto;
 }
 
 .contacts-title {
@@ -377,8 +377,7 @@ main {
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
-    width: 100%; /* Обеспечивает ограничение ширины */
-}
+    width: 100%; 
 
 .contacts-block {
     display: flex;
@@ -700,7 +699,7 @@ footer {
     transform: translateY(-2px);
 }
 
-/* Медиа-запрос для мобильных */
+/* Медиа для мобильных */
 @media (max-width: 768px) {
     .terms {
         width: 90%;
@@ -719,16 +718,16 @@ footer {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 60px; /* Ширина круга */
-    height: 60px; /* Высота круга */
+    width: 60px; 
+    height: 60px;
     background-color: #ffd900;
     color: white;
     text-align: center;
-    line-height: 60px; /* Центрируем по вертикали */
+    line-height: 60px; 
     font-size: 30px;
-    border-radius: 50%; /* Круглая форма */
+    border-radius: 50%;
     cursor: pointer;
-    display: none; /* По умолчанию скрыта */
+    display: none; 
     transition: opacity 0.3s, transform 0.3s;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   }
